@@ -1,0 +1,61 @@
+# Credentials and configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+secrets.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter and Colab
+.ipynb_checkpoints/
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs and temporary output
+*.log
+tmp/
+temp/
+
+# Private or unapproved data
+data/private/
+data/raw/
+
+# Large model and archive files
+*.pkl
+*.joblib
+*.h5
+*.zip
+*.tar
+*.gz
+
+# Google Drive reference files cannot be committed by Git
+*.gdoc
+*.gsheet
+*.gslides
+*.gdraw
+*.gform
+
+# Local GitHub publishing utility
+Colab_to_GitHub_Project_Publisher.py
+
+# Confidential or nonpublic project data
+em_data.db
+em_records_raw.csv

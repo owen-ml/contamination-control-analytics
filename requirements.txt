@@ -1,0 +1,8 @@
+# Add one package per line, preferably with tested versions.
+pandas
+numpy
+matplotlib
+seaborn
+scipy
+plotly
+streamlit
